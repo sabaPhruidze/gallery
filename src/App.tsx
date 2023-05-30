@@ -65,7 +65,7 @@ function App() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              transition: "0.5s ease-in",
+              transition: "0.9s ease-in",
               cursor: idx === active ? "not-allowed" : "pointer",
               position: "relative",
             }}
