@@ -40,18 +40,7 @@ function App() {
       <h1 style={{ textAlign: "center", marginTop: 10, marginBottom: 10 }}>
         Choose desired place
       </h1>
-      <div
-        style={{
-          width: "100vw",
-          height: "650px",
-          display: "flex",
-          flexDirection: "row",
-          overflow: "hidden",
-          alignItems: "center",
-          justifyContent: " center",
-          backgroundColor: "black",
-        }}
-      >
+      <div className="changedThingsContainer">
         {data.map((item: any, idx: number) => (
           <div
             key={idx}
@@ -70,6 +59,7 @@ function App() {
               position: "relative",
             }}
             onClick={() => setActive(idx)}
+            className="changedThingsImg"
           >
             <h2
               style={{

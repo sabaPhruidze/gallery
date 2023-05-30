@@ -7,3 +7,19 @@ body {
   background-color: black;
   color:white
 }
+.changedThingsContainer {
+  overflow:hidden;
+  flex-direction: row;
+  width: 100vw;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.changedThingsImg {
+
+}
+.ThingsImg {
+
+}
